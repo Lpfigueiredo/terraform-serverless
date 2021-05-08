@@ -1,0 +1,11 @@
+node_modules
+jspm_packages
+.terraform
+.serverless
+
+secrets*
+*.backup
+*.hcl
+*.tfstate
+
+!secrets.auto.tfvars.example
